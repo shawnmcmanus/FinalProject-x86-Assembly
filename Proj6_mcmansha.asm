@@ -2,8 +2,6 @@ TITLE Project 6 - String Primitives and Macros     (Proj6_mcmansha.asm)
 
 ; Author: Shawn McManus
 ; Last Modified: 8/13/2024
-; OSU email address: mcmansha@oregonstate.edu
-; Course number/section:   CS271 Section 400
 ; Project Number: 6                Due Date: 8/16/2024
 ; Description: Uses macros and procedures to implement own 
 ; low-level I/O procedures
