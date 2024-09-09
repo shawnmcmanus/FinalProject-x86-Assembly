@@ -4,7 +4,7 @@ TITLE Project 6 - String Primitives and Macros     (Proj6_mcmansha.asm)
 ; Last Modified: 8/13/2024
 ; Project Number: 6                Due Date: 8/16/2024
 ; Description: Uses macros and procedures to implement own 
-; low-level I/O procedures
+; low-level I/O procedures like ReadInt and WriteInt.
 
 INCLUDE Irvine32.inc
 
