@@ -21,17 +21,17 @@ mGetString MACRO prompt_para:REQ, input:REQ, count_para:REQ, bytesNum:REQ
 	push	ECX
 	push	EDX
 
-	mov		EDX, prompt_para			;Need to include OFFSET when filling in parameters
+	mov	EDX, prompt_para			;Need to include OFFSET when filling in parameters
 	call	WriteString
-	mov		EDX, input					;Loads address of input buffer into EDX
-	mov		ECX, count_para				;Buffer size		
+	mov	EDX, input					;Loads address of input buffer into EDX
+	mov	ECX, count_para				;Buffer size		
 	call	ReadString					
 	mov     [bytesNum], EAX
 
 
-	pop		EDX
-	pop		ECX
-	pop		EAX
+	pop	EDX
+	pop	ECX
+	pop	EAX
 ENDM
 
 ;----------------------------------------------------------------
@@ -45,10 +45,10 @@ ENDM
 mDisplayString MACRO string_para:REQ
 	push	EDX
 
-	mov		EDX, string_para
+	mov	EDX, string_para
 	call	WriteString
 
-	pop		EDX
+	pop	EDX
 ENDM
 	
 ;Global variables
